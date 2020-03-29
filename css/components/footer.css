@@ -1,0 +1,30 @@
+.section-footer {
+    /* max-width: 100%; */
+    /* width: 100vw; */
+    display: grid;
+    grid-template-rows: repeat(1fr);
+
+}
+
+.section-footer p {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #050914;
+    text-align: center;
+    justify-self: center;
+}
+
+.section-footer ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-footer ul li {
+    padding: 0 10px 20px 10px ;
+    list-style: none;
+}

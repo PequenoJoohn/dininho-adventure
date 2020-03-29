@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Nunito&display=swap');
+@import './components/title.css';
+@import './components/icons.css';
+@import './components/main.css';
+@import './components/body.css';
+@import './components/require.css';
+@import './components/help.css';
+@import './components/footer.css';
+@import './components/video.css';
+@import './components/key.css';

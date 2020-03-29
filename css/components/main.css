@@ -1,0 +1,102 @@
+/*  CENTER */
+
+.section-center {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr;
+}
+
+.section-full {
+    background-image: url('../../img/full.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+/* EGGS */
+
+.separator-basket {
+    background-image: url('../../img/basket.png');
+    background-size: auto 122px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 550px; */
+    padding: 100px;
+}
+
+.separator-egg {
+    background-image: url('../../img/egg.png');
+    background-size: auto 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.separator-egg::before, .separator-egg::after {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.separator-basket::before, .separator-basket::after {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* LIST GAME */
+
+.list_game {
+    list-style: none;
+}
+
+.list_game li {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #3D1132;
+    padding: 10px;
+}
+
+/* BUTTON */
+
+.button-play {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/button.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 296px;
+    height: 90px;
+}
+
+.button-play:hover {
+    transform: scale(1.05);
+}
+
+.button-play>.content {
+    transform: translateY(-2px);
+}

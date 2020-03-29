@@ -1,0 +1,23 @@
+.social-media {
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+}
+
+.social-media[href*='twitch'] {
+    background-image: url(../../img/icons/twitch.svg);
+}
+
+.social-media[href*='twitter'] {
+    background-image: url(../../img/icons/twitter.svg);
+}
+
+.social-media[href*='discord'] {
+    background-image: url(../../img/icons/discord.svg);
+}
+
+.logo {
+    margin: 200px 0px 0px 420px;
+}

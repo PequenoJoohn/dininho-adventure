@@ -1,0 +1,24 @@
+.text_white {
+    font-family: 'Bungee', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 36px;
+    text-align: center;
+    color: #FCFDFC;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.title_red {
+    font-family: 'Bungee', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.19em;
+    color: #73263D;
+}

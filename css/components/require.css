@@ -1,0 +1,8 @@
+.section-requirements dl dd{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    text-align: start;
+    line-height: 33px;
+    color: #3D1132;
+}
